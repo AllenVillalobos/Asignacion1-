@@ -70,7 +70,12 @@
     <Content Include="Estilos.css" />
     <Content Include="Global.asax" />
     <Content Include="Paginas\Login.aspx" />
+    <Content Include="Paginas\Categorias\MenuCategorias.aspx" />
+    <Content Include="Paginas\Proveedores\MenuProveedor.aspx" />
+    <Content Include="Paginas\Usuarios\AgregarUsuario.aspx" />
+    <Content Include="Paginas\Usuarios\MenuUsuario.aspx" />
     <Content Include="Paginas\PaginaDeHome.aspx" />
+    <Content Include="Paginas\Productos\MenuProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,12 +89,47 @@
     <Compile Include="Paginas\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Categorias\MenuCategorias.aspx.cs">
+      <DependentUpon>MenuCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Categorias\MenuCategorias.aspx.designer.cs">
+      <DependentUpon>MenuCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\MenuProveedor.aspx.cs">
+      <DependentUpon>MenuProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\MenuProveedor.aspx.designer.cs">
+      <DependentUpon>MenuProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\AgregarUsuario.aspx.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\AgregarUsuario.aspx.designer.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\MenuUsuario.aspx.cs">
+      <DependentUpon>MenuUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\MenuUsuario.aspx.designer.cs">
+      <DependentUpon>MenuUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\PaginaDeHome.aspx.cs">
       <DependentUpon>PaginaDeHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Paginas\PaginaDeHome.aspx.designer.cs">
       <DependentUpon>PaginaDeHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Productos\MenuProducto.aspx.cs">
+      <DependentUpon>MenuProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Productos\MenuProducto.aspx.designer.cs">
+      <DependentUpon>MenuProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
