@@ -11,7 +11,7 @@ namespace TareaEvaluada.Paginas.Usuarios
 {
 
 
-    public partial class AgregarUsuario
+    public partial class ModificarUsuario
     {
 
         /// <summary>
@@ -22,6 +22,15 @@ namespace TareaEvaluada.Paginas.Usuarios
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// Control txtID.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtID;
 
         /// <summary>
         /// Control txtNombre.
@@ -60,22 +69,22 @@ namespace TareaEvaluada.Paginas.Usuarios
         protected global::System.Web.UI.WebControls.TextBox txtRol;
 
         /// <summary>
-        /// Control txtAdicionadoPor.
+        /// Control txtModificadorPor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAdicionadoPor;
+        protected global::System.Web.UI.WebControls.TextBox txtModificadorPor;
 
         /// <summary>
-        /// Control btnAgregarUsuario.
+        /// Control btnModificarUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAgregarUsuario;
+        protected global::System.Web.UI.WebControls.Button btnModificarUsuario;
 
         /// <summary>
         /// Control lblMensaje.

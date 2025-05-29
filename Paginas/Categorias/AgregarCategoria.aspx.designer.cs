@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace TareaEvaluada.Paginas.Usuarios
+namespace TareaEvaluada.Paginas.Categorias
 {
 
 
-    public partial class AgregarUsuario
+    public partial class AgregarCategoria
     {
 
         /// <summary>
@@ -33,31 +33,13 @@ namespace TareaEvaluada.Paginas.Usuarios
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
 
         /// <summary>
-        /// Control txtEmail.
+        /// Control txtDescripcion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
-
-        /// <summary>
-        /// Control txtContra.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtContra;
-
-        /// <summary>
-        /// Control txtRol.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRol;
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
 
         /// <summary>
         /// Control txtAdicionadoPor.
@@ -69,13 +51,13 @@ namespace TareaEvaluada.Paginas.Usuarios
         protected global::System.Web.UI.WebControls.TextBox txtAdicionadoPor;
 
         /// <summary>
-        /// Control btnAgregarUsuario.
+        /// Control btnAgregarCategoria.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAgregarUsuario;
+        protected global::System.Web.UI.WebControls.Button btnAgregarCategoria;
 
         /// <summary>
         /// Control lblMensaje.

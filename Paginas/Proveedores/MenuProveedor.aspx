@@ -5,10 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="../../Estilos.css">
+    <title>Sub Menu De Proveedores</title>
+    <link rel="stylesheet" type="text/css" href="../Estilos.css">
 </head>
 <body>
+    <!-- Pagina del Sub Menu de Proveedores, desde aqui el usuario puede acceder a las diferentes vistas 
+        para realizar sus mantenimientos de proveedores-->
     <form id="form1" runat="server">
         <div>
             <!-- Mensaje de Bienvenida Al Menu de Proveedores-->
@@ -18,23 +20,23 @@
                 <!-- Elementos de la lista -->
                 <li>
                     <!-- Redirecciona a la pagina AgregarProveedor (Prevista)-->
-                    <a href="">Agregar Proveedor</a>
+                    <a href="" class="Links">Agregar Proveedor</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EditarProveedor (Prevista)-->
-                    <a href="">Editar Proveedor</a>
+                    <!-- Redirecciona a la pagina EditarProveedor-->
+                    <a href="ModificarProveedor.aspx" class="Links">Editar Proveedor</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina EliminarProveedor (Prevista)-->
-                    <a href="">Eliminar Proveedor</a>
+                    <a href="" class="Links">Eliminar Proveedor</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina VerProveedores (Prevista)-->
-                    <a href="">Ver Proveedores</a>
+                    <a href="" class="Links">Ver Proveedores</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina PaginaDeHome, volve al inicio(Primer Menu) -->
-                    <a href="../PaginaDeHome.aspx">Volver al Inicio</a>
+                    <a href="../PaginaDeHome.aspx" class="Links">Volver al Inicio</a>
                 </li>
             </ul>
         </div>

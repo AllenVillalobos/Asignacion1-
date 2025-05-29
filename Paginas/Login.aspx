@@ -6,9 +6,11 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Login</title>
-    <link rel="stylesheet" href="../Estilos.css" type="text/css" />
+    <link rel="stylesheet" href="Estilos.css" type="text/css" />
 </head>
 <body>
+     <!-- Pagina de Login, esta es la primera que se muestra, esta pagina tiene como finalidad
+         que el usuario se autentifique-->
     <form id="form1" runat="server">
         <div>
             <!-- Mensaje de Bienvenida -->

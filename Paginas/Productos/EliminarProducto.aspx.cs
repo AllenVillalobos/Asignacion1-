@@ -5,16 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TareaEvaluada.Paginas.Usuarios
+namespace TareaEvaluada.Paginas.Productos
 {
-    public partial class AgregarUsuario : System.Web.UI.Page
+    public partial class EliminarProducto : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        /*Procedimiento para registar usuario (prevista)*/
-        protected void btnAgregarUsuario_Click(object sender, EventArgs e)
+        /*Procedimiento para eliminar producto (prevista)*/
+        protected void btnEliminar_Click(object sender, EventArgs e)
         {
         }
     }
