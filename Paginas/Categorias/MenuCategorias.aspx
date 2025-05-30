@@ -23,16 +23,16 @@
                     <a href="AgregarCategoria.aspx" class="Links">Agregar Categoria</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EditarCategoria (Prevista)-->
-                    <a href="" class="Links">Editar Categoria</a>
+                    <!-- Redirecciona a la pagina EditarCategoria-->
+                    <a href="ModificarCategoria.aspx" class="Links">Editar Categoria</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EliminarCategoria (Prevista)-->
-                    <a href="" class="Links">Eliminar Categoria</a>
+                    <!-- Redirecciona a la pagina EliminarCategoria-->
+                    <a href="EliminarCategoria.aspx" class="Links">Eliminar Categoria</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina VerCategorias (Prevista)-->
-                    <a href="" class="Links">Ver Categorias</a>
+                    <!-- Redirecciona a la pagina VerCategorias-->
+                    <a href="VerCategorias.aspx" class="Links">Ver Categorias</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina PaginaDeHome, volve al inicio(Primer Menu) -->

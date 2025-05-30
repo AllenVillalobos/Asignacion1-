@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../Estilos.css">
 </head>
 <body>
-        <!-- Pagina del Sub Menu de Productos, desde aqui el usuario puede acceder a las diferentes vistas 
+    <!-- Pagina del Sub Menu de Productos, desde aqui el usuario puede acceder a las diferentes vistas 
         para realizar sus mantenimientos de sus productos-->
     <form id="form1" runat="server">
         <div>
@@ -19,20 +19,20 @@
             <ul>
                 <!-- Elementos de la lista -->
                 <li>
-                    <!-- Redirecciona a la pagina AgregarProducto (Prevista)-->
-                    <a href="" class="Links">Agregar Producto</a>
+                    <!-- Redirecciona a la pagina AgregarProducto-->
+                    <a href="AgregarProducto.aspx" class="Links">Agregar Producto</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EditarProducto (Prevista)-->
-                    <a href="" class="Links">Editar Producto</a>
+                    <!-- Redirecciona a la pagina EditarProducto-->
+                    <a href="ModificarProducto.aspx" class="Links">Editar Producto</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina EliminarProducto-->
-                    <a href="EliminarProducto.aspx" class="Links"> Eliminar Producto</a>
+                    <a href="EliminarProducto.aspx" class="Links">Eliminar Producto</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina VerProductos (Prevista)-->
-                    <a href="" class="Links">Ver Productos</a>
+                    <!-- Redirecciona a la pagina VerProductos -->
+                    <a href="VerProductos.aspx" class="Links">Ver Productos</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina PaginaDeHome, volve al inicio(Primer Menu) -->

@@ -27,12 +27,12 @@
                     <a href="ModificarUsuario.aspx" class="Links">Editar Usuario</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EliminarUsuario (Prevista)-->
-                    <a href="" class="Links">Eliminar Usuario</a>
+                    <!-- Redirecciona a la pagina EliminarUsuario-->
+                    <a href="EliminarUsuario.aspx" class="Links">Eliminar Usuario</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina VerUsuarios (Prevista)-->
-                    <a href="" class="Links">Ver Usuarios</a>
+                    <!-- Redirecciona a la pagina VerUsuarios-->
+                    <a href="VerUsuarios.aspx" class="Links">Ver Usuarios</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina PaginaDeHome, volve al inicio(Primer Menu) -->

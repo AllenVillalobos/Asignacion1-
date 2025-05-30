@@ -1,7 +1,7 @@
 ﻿/*Por Elemento*/
-h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align:center;
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,6 +18,17 @@ li {
 }
 li:hover{
     background-color:black;
+}
+div {
+    border: solid 1px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*Por Clase*/
 .Links {
@@ -43,15 +54,9 @@ li:hover{
     display: block;
 }
 /*Por identificador*/
-#lblMensaje {
+#lblMensaje{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     text-align:center;
     display:block;
-}
-#lblMensajeRegistro {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
-    text-align: center;
-    display: block;
 }

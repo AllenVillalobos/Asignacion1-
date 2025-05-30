@@ -60,8 +60,8 @@
             <asp:Label ID="lblMensaje" CssClass="Mensajes" runat="server"></asp:Label>
             <br />
             <br />
-            <!--Link para Volver al Menu de Usuarios,solo posible despues de que la accion salga bien-->
-            <a href="MenuUsuario.aspx" hidden="hidden" id="aVolver" class="Links">Volver</a>
+            <!--Link para Volver al Menu de Usuarios-->
+            <a href="MenuUsuario.aspx"id="aVolver" class="Links">Volver</a>
         </div>
     </form>
 </body>

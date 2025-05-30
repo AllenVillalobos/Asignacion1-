@@ -19,20 +19,20 @@
             <ul>
                 <!-- Elementos de la lista -->
                 <li>
-                    <!-- Redirecciona a la pagina AgregarProveedor (Prevista)-->
-                    <a href="" class="Links">Agregar Proveedor</a>
+                    <!-- Redirecciona a la pagina AgregarProveedor -->
+                    <a href="AgregarProveedor.aspx" class="Links">Agregar Proveedor</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina EditarProveedor-->
                     <a href="ModificarProveedor.aspx" class="Links">Editar Proveedor</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina EliminarProveedor (Prevista)-->
-                    <a href="" class="Links">Eliminar Proveedor</a>
+                    <!-- Redirecciona a la pagina EliminarProveedor-->
+                    <a href="EliminarProveedor.aspx" class="Links">Eliminar Proveedor</a>
                 </li>
                 <li>
-                    <!-- Redirecciona a la pagina VerProveedores (Prevista)-->
-                    <a href="" class="Links">Ver Proveedores</a>
+                    <!-- Redirecciona a la pagina VerProveedores-->
+                    <a href="VerProveedores.aspx" class="Links">Ver Proveedores</a>
                 </li>
                 <li>
                     <!-- Redirecciona a la pagina PaginaDeHome, volve al inicio(Primer Menu) -->

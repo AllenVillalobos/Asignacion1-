@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>Eliminar Producto</title>
     <link rel="stylesheet" type="text/css" href="../Estilos.css"/>
 </head>
 <body>
@@ -32,8 +32,8 @@
             <asp:Label ID="lblMensaje" CssClass="Mensajes" runat="server"></asp:Label>
             <br />
             <br />
-            <!--Link para Volver al Menu de Productos,solo posible despues de que la accion salga bien-->
-            <a href="MenuProducto.aspx" hidden="hidden" id="aVolver" class="Links">Volver</a>
+            <!--Link para Volver al Menu de Productos-->
+            <a href="MenuProducto.aspx" id="aVolver" class="Links">Volver</a>
         </div>
     </form>
 </body>

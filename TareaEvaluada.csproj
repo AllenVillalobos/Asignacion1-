@@ -69,17 +69,28 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Paginas\Categorias\AgregarCategoria.aspx" />
+    <Content Include="Paginas\Categorias\EliminarCategoria.aspx" />
+    <Content Include="Paginas\Categorias\ModificarCategoria.aspx" />
+    <Content Include="Paginas\Categorias\VerCategorias.aspx" />
     <Content Include="Paginas\Estilos.css" />
     <Content Include="Paginas\Login.aspx" />
     <Content Include="Paginas\Categorias\MenuCategorias.aspx" />
+    <Content Include="Paginas\Productos\AgregarProducto.aspx" />
     <Content Include="Paginas\Productos\EliminarProducto.aspx" />
+    <Content Include="Paginas\Productos\ModificarProducto.aspx" />
+    <Content Include="Paginas\Productos\VerProductos.aspx" />
+    <Content Include="Paginas\Proveedores\AgregarProveedor.aspx" />
+    <Content Include="Paginas\Proveedores\EliminarProveedor.aspx" />
     <Content Include="Paginas\Proveedores\MenuProveedor.aspx" />
     <Content Include="Paginas\Proveedores\ModificarProveedor.aspx" />
+    <Content Include="Paginas\Proveedores\VerProveedores.aspx" />
     <Content Include="Paginas\Usuarios\AgregarUsuario.aspx" />
+    <Content Include="Paginas\Usuarios\EliminarUsuario.aspx" />
     <Content Include="Paginas\Usuarios\MenuUsuario.aspx" />
     <Content Include="Paginas\PaginaDeHome.aspx" />
     <Content Include="Paginas\Productos\MenuProducto.aspx" />
     <Content Include="Paginas\Usuarios\ModificarUsuario.aspx" />
+    <Content Include="Paginas\Usuarios\VerUsuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +103,27 @@
     </Compile>
     <Compile Include="Paginas\Categorias\AgregarCategoria.aspx.designer.cs">
       <DependentUpon>AgregarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Categorias\EliminarCategoria.aspx.cs">
+      <DependentUpon>EliminarCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Categorias\EliminarCategoria.aspx.designer.cs">
+      <DependentUpon>EliminarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Categorias\ModificarCategoria.aspx.cs">
+      <DependentUpon>ModificarCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Categorias\ModificarCategoria.aspx.designer.cs">
+      <DependentUpon>ModificarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Categorias\VerCategorias.aspx.cs">
+      <DependentUpon>VerCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Categorias\VerCategorias.aspx.designer.cs">
+      <DependentUpon>VerCategorias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -107,12 +139,47 @@
     <Compile Include="Paginas\Categorias\MenuCategorias.aspx.designer.cs">
       <DependentUpon>MenuCategorias.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Productos\AgregarProducto.aspx.cs">
+      <DependentUpon>AgregarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Productos\AgregarProducto.aspx.designer.cs">
+      <DependentUpon>AgregarProducto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Productos\EliminarProducto.aspx.cs">
       <DependentUpon>EliminarProducto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Paginas\Productos\EliminarProducto.aspx.designer.cs">
       <DependentUpon>EliminarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Productos\ModificarProducto.aspx.cs">
+      <DependentUpon>ModificarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Productos\ModificarProducto.aspx.designer.cs">
+      <DependentUpon>ModificarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Productos\VerProductos.aspx.cs">
+      <DependentUpon>VerProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Productos\VerProductos.aspx.designer.cs">
+      <DependentUpon>VerProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\AgregarProveedor.aspx.cs">
+      <DependentUpon>AgregarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\AgregarProveedor.aspx.designer.cs">
+      <DependentUpon>AgregarProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\EliminarProveedor.aspx.cs">
+      <DependentUpon>EliminarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\EliminarProveedor.aspx.designer.cs">
+      <DependentUpon>EliminarProveedor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Proveedores\MenuProveedor.aspx.cs">
       <DependentUpon>MenuProveedor.aspx</DependentUpon>
@@ -128,12 +195,26 @@
     <Compile Include="Paginas\Proveedores\ModificarProveedor.aspx.designer.cs">
       <DependentUpon>ModificarProveedor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Proveedores\VerProveedores.aspx.cs">
+      <DependentUpon>VerProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Proveedores\VerProveedores.aspx.designer.cs">
+      <DependentUpon>VerProveedores.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Usuarios\AgregarUsuario.aspx.cs">
       <DependentUpon>AgregarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Paginas\Usuarios\AgregarUsuario.aspx.designer.cs">
       <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\EliminarUsuario.aspx.cs">
+      <DependentUpon>EliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\EliminarUsuario.aspx.designer.cs">
+      <DependentUpon>EliminarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Usuarios\MenuUsuario.aspx.cs">
       <DependentUpon>MenuUsuario.aspx</DependentUpon>
@@ -162,6 +243,13 @@
     </Compile>
     <Compile Include="Paginas\Usuarios\ModificarUsuario.aspx.designer.cs">
       <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\VerUsuarios.aspx.cs">
+      <DependentUpon>VerUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Usuarios\VerUsuarios.aspx.designer.cs">
+      <DependentUpon>VerUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

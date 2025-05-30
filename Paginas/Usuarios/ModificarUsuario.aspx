@@ -60,15 +60,15 @@
             <br />
             <br />
             <!--Boton para Modificar al usuario, llama al procedimiento btnRegistrar_Click-->
-            <asp:Button ID="btnModificarUsuario" Text="Registrar" runat="server" CssClass="Botones" OnClick="btnModificarUsuario_Click" />
+            <asp:Button ID="btnModificarUsuario" Text="Modificar" runat="server" CssClass="Botones" OnClick="btnModificarUsuario_Click" />
             <br />
             <br />
              <!--Mensaje Informativo, Indica si todo salio bien-->
             <asp:Label ID="lblMensaje" CssClass="Mensajes" runat="server"></asp:Label>
             <br />
             <br />
-            <!--Link para Volver al Menu de Usuarios,solo posible despues de que la accion salga bien-->
-            <a href="MenuUsuario.aspx" hidden="hidden" id="aVolver" class="Links">Volver</a>
+            <!--Link para Volver al Menu de Usuarios-->
+            <a href="MenuUsuario.aspx" id="aVolver" class="Links">Volver</a>
         </div>
     </form>
 </body>
