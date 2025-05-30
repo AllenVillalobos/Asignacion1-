@@ -19,9 +19,7 @@ li {
 li:hover{
     background-color:black;
 }
-div {
-    border: solid 1px;
-}
+
 table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -29,6 +27,9 @@ table {
     table-layout: fixed;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th {
+    border: 1px solid black;
 }
 /*Por Clase*/
 .Links {
